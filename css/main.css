@@ -1,9 +1,10 @@
 body {
-  font-family: "Dosis", sans-serif; }
+  font-family: "Dosis", sans-serif; 
+}
 
 /* Home Page Style */
 .ww-home-page {
-  background: url("../images/z1.jpeg") no-repeat center center;
+  background: url("../images/none.jpeg") no-repeat center center;
   background-size: cover;
   background-position: 70%;
   height: 100vh;
@@ -14,7 +15,7 @@ body {
     max-width: 1600px;
     margin: 0 auto;
     height: 100%;
-    color: #fff;
+    color: grey;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     letter-spacing: 2px; }
     .ww-home-page .ww-wedding-announcement .ww-announcement-container {
@@ -49,6 +50,7 @@ body {
 
 /* Nav Bar Style */
 .ww-nav-bar .heart {
+
   fill: #f26147;
   position: relative;
   top: 2px;
@@ -73,6 +75,7 @@ body {
     transform: scale(1); } }
 
 .ww-nav-bar .nav-item {
+
   font-size: 18px;
   padding: 5px 0 5px 16px;
   font-weight: 500; }
@@ -172,11 +175,25 @@ body {
 .ww-title {
   font-family: "Great Vibes", cursive; }
 
-.ww-section {
-  padding: 100px 0; }
 
 .btn-primary {
   color: #fff; }
 
 .btn-outline-primary:hover {
   color: #fff; }
+
+/*BACKGROUND COLOR*/
+.ww-section {
+  padding: 100px 0; 
+  background-color: #e6ffe6 !important;
+}
+
+.ww-nav-bar{
+  background-color: #e6ffe6 !important;
+}
+
+.ww-footer{
+  background-color: #e6ffe6 !important;
+}
+
+
