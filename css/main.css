@@ -9,20 +9,21 @@ body {
 
 /* Home Page Style */
 .ww-home-page {
-
   background-color: #e6ffe6 !important;
-  background: url("../images/none.jpeg") no-repeat center center;
+  background: url("../images/z6.jpeg") no-repeat center center;
   background-size: cover;
   /* background-position: 70%; */
   height: 100vh;
   min-height: 480px;
-  max-height: 1080px; }
+  max-height: 1080px; 
+}
 .ww-home-page .ww-wedding-announcement {
   /* text-align: center; */
     width: 100%;
     max-width: 1600px;
     height: 100%;
-    color:  rgb(139, 139, 139);
+    /* color:  rgb(139, 139, 139); */
+    color:  white;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     letter-spacing: 2px; 
   }
