@@ -2,6 +2,15 @@ body {
   font-family: "Dosis", sans-serif; 
 }
 
+a
+{
+  color: black !important;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 #center {
   justify-content: center !important;
   text-align: center !important;
